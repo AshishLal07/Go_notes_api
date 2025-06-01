@@ -1,0 +1,31 @@
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+/bin/
+/obj/
+
+# Dependency directories
+/vendor/
+
+# Go module files
+go.sum
+
+# IDE and editor files
+*.idea/
+*.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Test binary, coverage files, and other temporary files
+*.test
+*.out
+*.cover
+
+# Ignore any local configuration files
+.env
